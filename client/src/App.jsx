@@ -1,8 +1,11 @@
 import "./App.css";
+import MainImage from "./components/MainImage";
+import Thumbnails from "./components/Thumbnails";
 import { useState, useEffect } from "react";
 
 export default function App() {
   const [items, setItems] = useState([]);
+  const [selected, setSelected] = useState(0);
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(
@@ -15,11 +18,9 @@ export default function App() {
   }, []);
 
   return (
-    <div>
-      <h2>Items from API</h2>
-      {items.map((item) => (
-        <img src={item.src} key={item.id} />
-      ))}
-    </div>
+    <>
+      <Thumbnails arr={items} set={setSelected} />
+      {items[0] ? <MainImage arr={items} sel={selected} /> : null}
+    </>
   );
 }
