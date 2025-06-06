@@ -33,7 +33,7 @@ main {
 
 .thumb-toggle,
 .thumb-toggle-flipped {
-  grid-area: 4/2 / span 1 / span 2;
+  grid-area: 5/1 / span 1 / span 1;
   justify-self: center;
   z-index: 2;
 }
@@ -76,7 +76,8 @@ main {
 
   .thumb-toggle,
   .thumb-toggle-flipped {
-    grid-area: 2/3 / span 1 / span 1;
+    grid-area: 1/1 / span 1 / span 1;
+    align-self: baseline;
   }
 
   .thumb-toggle {
