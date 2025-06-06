@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <main>
-      <div className="main-image">
+      <div className="main-image-container">
         <Thumbnails arr={items} set={setSelected} />
         {items[0] ? <MainImage arr={items} sel={selected} /> : <HoldIt />}
       </div>
