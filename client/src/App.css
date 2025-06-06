@@ -17,6 +17,7 @@ main {
   display: grid;
   grid-template-rows: 10% 5% 50% 10% 25%;
   grid-template-columns: 10% 30% 50% 10%;
+  max-height: 100dvh;
 }
 
 .img-large {
@@ -62,7 +63,7 @@ main {
 
 @media (min-width: 800px) {
   .main-image-container {
-    grid-template-rows: 20% 55% 5% 10%;
+    grid-template-rows: 20% 65% 5% 10%;
     grid-template-columns: 20% 17% 26% 17% 20%;
   }
 
@@ -116,5 +117,11 @@ main {
   .thumbnail-container::scroll-button(right) {
     content: ">";
     right: calc(anchor(right) - 55px);
+  }
+}
+
+@media (hover: hover) {
+  .thumb-image:hover {
+    opacity: 0.5;
   }
 }
