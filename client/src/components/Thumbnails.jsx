@@ -3,7 +3,7 @@ import "./Thumbnails.css";
 
 export default function Thumbnails({ arr, set }) {
   return (
-    <div className="thumbnail-container">
+    <ul className="thumbnail-container">
       {arr.map((arrItem) => (
         <ThumbImage
           key={arrItem.id}
@@ -14,6 +14,6 @@ export default function Thumbnails({ arr, set }) {
           set={set}
         />
       ))}
-    </div>
+    </ul>
   );
 }
