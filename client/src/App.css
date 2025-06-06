@@ -1,5 +1,42 @@
-#root {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+main {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 1fr 1fr;
+  min-height: 100dvh;
+}
+
+.main-image {
+  grid-area: 1/1 / span 1 / span 3;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 5% 95%;
+}
+
+.main-image img {
+  grid-area: 1/1 / span 2 / span 2;
+  justify-self: center;
+  align-self: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.main-image h2 {
+  grid-area: 2/2 / span 1 / span 1;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.4rem;
+}
+
+.thumbnail-container {
+  grid-area: 2/2 / span 1 / span 1;
+  display: flex;
+  height: 80px;
+  overflow-y: hidden;
 }

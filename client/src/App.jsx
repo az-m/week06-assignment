@@ -1,6 +1,7 @@
 import "./App.css";
 import MainImage from "./components/MainImage";
 import Thumbnails from "./components/Thumbnails";
+import HoldIt from "./components/HoldIt";
 import { useState, useEffect } from "react";
 
 export default function App() {
@@ -18,9 +19,9 @@ export default function App() {
   }, []);
 
   return (
-    <>
+    <main>
       <Thumbnails arr={items} set={setSelected} />
-      {items[0] ? <MainImage arr={items} sel={selected} /> : null}
-    </>
+      {items[0] ? <MainImage arr={items} sel={selected} /> : <HoldIt />}
+    </main>
   );
 }
