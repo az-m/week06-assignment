@@ -2,7 +2,7 @@ import "./ThumbImage.css";
 
 export default function ThumbImage({ id, src, title, alt, set }) {
   return (
-    <>
+    <li>
       <img
         id={id}
         src={src}
@@ -14,6 +14,6 @@ export default function ThumbImage({ id, src, title, alt, set }) {
         className="thumb-image"
         draggable={false}
       />
-    </>
+    </li>
   );
 }

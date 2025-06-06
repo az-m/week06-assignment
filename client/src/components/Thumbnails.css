@@ -1,4 +1,7 @@
 .thumbnail-container {
   scroll-snap-type: x mandatory;
   background-color: rgba(0, 0, 0, 0.6);
+  color-scheme: dark;
+  list-style: none;
+  border: 1px solid black;
 }
