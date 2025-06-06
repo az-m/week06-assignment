@@ -20,8 +20,10 @@ export default function App() {
 
   return (
     <main>
-      <Thumbnails arr={items} set={setSelected} />
-      {items[0] ? <MainImage arr={items} sel={selected} /> : <HoldIt />}
+      <div className="main-image">
+        <Thumbnails arr={items} set={setSelected} />
+        {items[0] ? <MainImage arr={items} sel={selected} /> : <HoldIt />}
+      </div>
     </main>
   );
 }

@@ -1,4 +1,5 @@
 import ThumbImage from "./ThumbImage";
+import "./Thumbnails.css";
 
 export default function Thumbnails({ arr, set }) {
   return (
