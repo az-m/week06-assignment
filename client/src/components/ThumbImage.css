@@ -1,3 +1,4 @@
 .thumb-image {
+  scroll-snap-align: start;
   border: 2px solid black;
 }

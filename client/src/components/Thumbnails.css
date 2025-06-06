@@ -1,3 +1,4 @@
 .thumbnail-container {
+  scroll-snap-type: x mandatory;
   background-color: rgba(0, 0, 0, 0.6);
 }
