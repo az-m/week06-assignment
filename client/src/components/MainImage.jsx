@@ -6,7 +6,7 @@ export default function MainImage({ arr, sel }) {
     <>
       <img
         src={arr[sel].src}
-        alt={""}
+        alt={arr[sel].alt}
         className="img-large"
         draggable={false}
       />
