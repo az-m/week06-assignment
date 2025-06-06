@@ -2,7 +2,6 @@ import "./MainImage.css";
 
 export default function MainImage({ arr, sel }) {
   return (
-    // <div className="main-image">
     <>
       <img
         src={arr[sel].src}
