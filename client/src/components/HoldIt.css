@@ -1,0 +1,14 @@
+.ticker {
+  display: inline-block;
+  margin-left: 10px;
+  animation-name: progress;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes progress {
+  to {
+    transform: rotate(360deg);
+  }
+}
