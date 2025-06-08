@@ -108,6 +108,11 @@ main {
     align-self: baseline;
   }
 
+  .thumb-toggle:focus,
+  .thumb-toggle-flipped:focus {
+    opacity: 1;
+  }
+
   .thumb-toggle {
     transform: none;
   }
