@@ -19,3 +19,7 @@ In ordering my components, I first constructed an array of numbered buttons, whe
 Overall, the JavaScript (or jsx) was the easy bit, and the CSS was the time-consuming head-banging-on-wall bit! As usual.
 
 I'd hoped I'd at least have learned how to spell 'component' by now, but I still try to put an 'a' in it ...
+
+ETA: I couldn't decide if I wanted to see the whole image, or to have the images fill the screen, which looked better. I've got quite a mix of aspect ratios, which meant neither approach was entirely satisfactory. So I've added a toggle for the user to decide the view for themselves.
+
+I feel the interface is getting a bit cluttered now, but I'm sure someone actually talented in design could clean it up and make it look decent!
