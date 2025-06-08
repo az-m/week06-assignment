@@ -84,12 +84,12 @@ main {
 
 @media (min-width: 800px) {
   .main-image-container {
-    grid-template-rows: 5% 15% 70%;
+    grid-template-rows: 5% 15% 80%;
     grid-template-columns: 20% 17% 26% 17% 20%;
   }
 
   .main-image-container-full {
-    grid-template-rows: 5% 15% 70%;
+    grid-template-rows: 5% 15% 80%;
     grid-template-columns: 20% 17% 26% 17% 20%;
   }
 
